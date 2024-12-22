@@ -1,0 +1,50 @@
+Please create a Flutter music player interface with glossy effects. Here are the requirements:
+
+1. State Management:
+- Use GetX for state management
+- Create a controller class to manage play/pause state, volume, and progress
+- No StatefulWidget usage
+
+2. Layout Structure:
+- Dark purple gradient background
+- Album art display centered at the top
+- Album art should have a reflection effect below it
+- Control buttons in the middle
+- Progress and volume sliders at the bottom
+
+3. Glossy Controls:
+- Using GlossyContainer for all interactive elements
+- Three circular control buttons:
+  * Previous track (left)
+  * Play/Pause (center, larger size)
+  * Next track (right)
+- Progress slider with glossy track
+- Volume slider with glossy effect
+
+4. Visual Details:
+- Background: gradient from purple.shade900 to black
+- Primary color scheme: purple shades
+- Circular buttons should have glossy effect
+- Sliders should have glossy tracks
+- Album art should be 200x200 with rounded corners
+
+5. Interactive Elements:
+- Play/Pause button toggles icon
+- Progress slider should be draggable
+- Volume slider should be draggable
+- Add hover effects on buttons
+
+6. Project Structure:
+- Separate files for:
+  * View
+  * Controller
+  * Bindings
+- Custom widgets for reusable components
+
+Remember:
+- Only use GlossyContainer from the glossy package
+- Implement everything using GetX
+- No StatefulWidget usage
+- Focus on reusability and clean code
+
+Please provide the complete implementation with proper comments and documentation.
